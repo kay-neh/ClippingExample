@@ -6,8 +6,6 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import android.graphics.RectF
-import android.graphics.Region
-import android.os.Build
 import android.util.AttributeSet
 import android.view.View
 
@@ -238,7 +236,7 @@ class ClippedView @JvmOverloads constructor(context: Context, attrs: AttributeSe
     }
 
     private fun drawQuickRejectExample(canvas: Canvas) {
-        
+
     }
 
 
